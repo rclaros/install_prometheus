@@ -19,6 +19,8 @@ else
 fi
 
 cd /opt/monitor
+wget -O prometheus-1.7.2.linux-amd64.tar.gz https://github.com/rclaros/install_prometheus/raw/main/prometheus-1.7.2.linux-amd64.tar.gz
+wget -O node_exporter-0.14.0.linux-amd64.tar.gz https://github.com/rclaros/install_prometheus/raw/main/node_exporter-0.14.0.linux-amd64.tar.gz
 tar xvfz prometheus-1.7.2.linux-amd64.tar.gz
 tar xvfz node_exporter-0.14.0.linux-amd64.tar.gz
 mv prometheus-1.7.2.linux-amd64 server
